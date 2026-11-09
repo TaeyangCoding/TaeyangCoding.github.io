@@ -1,60 +1,258 @@
 {
-  "verifiedAtKST": "2026-10-20",
-  "source": "Apple iTunes lookup, country=kr, developer6808828707",
+  "schema": 2,
+  "verifiedAtKST": "2026-11-09",
+  "verificationRegion": "KR",
+  "storeStatusNote": "Public availability checked using Apple lookup and official store pages. A not-public URL is retained as a registered destination and is not rendered as a download button.",
   "apps": [
     {
       "id": "6822553016",
       "name": "말씀시계",
-      "storeName": "말씀시계",
-      "url": "https://apps.apple.com/kr/app/id6822553016",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/c5/4f/61c54fae-d3d0-3df6-e1e7-2d415ad2ce20/AppIcon-0-0-1x_U007epad-0-1-P3-85-220.png/512x512bb.jpg",
-      "description": "시간 속에서 만나는 오늘의 말씀",
-      "liveVersion": "1.2"
+      "category": "믿음과 일상",
+      "description": "시간 속에서 만나는 오늘의 말씀. 시계와 위젯으로 말씀을 가까이 두세요.",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "icon": "/apps/assets/6822553016.jpg",
+      "support": "/scriptureclock/",
+      "privacy": "/scriptureclock/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6822553016",
+          "status": "public"
+        },
+        "google": {
+          "url": "https://play.google.com/store/apps/details?id=com.taeyang.scriptureclock&hl=ko&gl=KR",
+          "package": "com.taeyang.scriptureclock",
+          "status": "not-public"
+        }
+      },
+      "androidPrivacy": "/android/scriptureclock/privacy.html"
     },
     {
       "id": "6822590383",
       "name": "말씀을 담다",
-      "storeName": "말씀을 담다",
-      "url": "https://apps.apple.com/kr/app/id6822590383",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/33/20/7f3320af-d9d8-f44c-1b07-42b38b482203/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "description": "사진에 말씀을 담아 나만의 엽서로",
-      "liveVersion": "1.1"
+      "category": "믿음과 일상",
+      "description": "사진에 말씀과 묵상을 더해, 간직하고 싶은 한 장의 엽서를 만드세요.",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "icon": "/apps/assets/6822590383.jpg",
+      "support": "https://versecamera-help.taeyang1238.chatgpt.site/",
+      "privacy": "https://versecamera-help.taeyang1238.chatgpt.site/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6822590383",
+          "status": "public"
+        },
+        "google": {
+          "url": "https://play.google.com/store/apps/details?id=com.taeyang.versecamera&hl=ko&gl=KR",
+          "package": "com.taeyang.versecamera",
+          "status": "not-public"
+        }
+      },
+      "androidPrivacy": "/android/versecamera/privacy.html"
+    },
+    {
+      "id": "6824449910",
+      "name": "내 취미 전시장",
+      "category": "취미와 기록",
+      "description": "직접 만든 작품을 사진과 기록으로 모아 나만의 작은 전시장에 놓아보세요.",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "icon": "/apps/assets/6824449910.jpg",
+      "support": "/hobbygallery/",
+      "privacy": "/hobbygallery/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6824449910",
+          "status": "public"
+        },
+        "google": {
+          "url": "https://play.google.com/store/apps/details?id=com.taeyang.hobbygallery&hl=ko&gl=KR",
+          "package": "com.taeyang.hobbygallery",
+          "status": "not-public"
+        }
+      },
+      "androidPrivacy": "/android/hobbygallery/privacy.html",
+      "terms": "/hobbygallery/terms.html"
+    },
+    {
+      "id": "6830592545",
+      "name": "우리 집 태양",
+      "category": "생활 도구",
+      "description": "우리 집의 햇빛과 창 방향을 살펴보고, 집마다 다른 채광을 기록하세요.",
+      "platforms": [
+        "ios"
+      ],
+      "icon": "/apps/assets/6830592545.jpg",
+      "support": "/our-home-sunlight/",
+      "privacy": "/our-home-sunlight/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6830592545",
+          "status": "public"
+        }
+      }
     },
     {
       "id": "6818794073",
       "name": "모두보기",
-      "storeName": "모두보기",
-      "url": "https://apps.apple.com/kr/app/id6818794073",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/aa/d6/e2/aad6e258-61e7-4037-57a7-761a09a665a7/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "description": "다양한 파일을 한곳에서 미리 보기",
-      "liveVersion": "1.5"
+      "category": "문서와 파일",
+      "description": "문서부터 사진, 영상과 압축파일까지. 필요한 파일을 한곳에서 미리 보세요.",
+      "platforms": [
+        "ios",
+        "mac",
+        "android"
+      ],
+      "icon": "/apps/assets/6818794073.jpg",
+      "support": "https://modubogi-support.taeyang1238.chatgpt.site/",
+      "privacy": "https://modubogi-support.taeyang1238.chatgpt.site/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6818794073",
+          "status": "public"
+        },
+        "google": {
+          "url": "https://play.google.com/store/apps/details?id=kr.ministerhelper.everypreview&hl=ko&gl=KR",
+          "package": "kr.ministerhelper.everypreview",
+          "status": "not-public"
+        }
+      },
+      "androidPrivacy": "/android/everypreview/privacy.html"
     },
     {
       "id": "6820398832",
       "name": "모두변환",
-      "storeName": "모두변환",
-      "url": "https://apps.apple.com/kr/app/id6820398832",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/2c/1e/a1/2c1ea198-5315-955b-e319-f3b595f8f24f/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
-      "description": "문서·사진·미디어를 필요한 형식으로",
-      "liveVersion": "1.2"
+      "category": "문서와 파일",
+      "description": "문서·사진·미디어를 필요한 형식으로 변환하고, 결과를 저장하고 공유하세요.",
+      "platforms": [
+        "ios",
+        "mac",
+        "android"
+      ],
+      "icon": "/apps/assets/6820398832.jpg",
+      "support": "/everyconvert/",
+      "privacy": "/everyconvert/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6820398832",
+          "status": "public"
+        },
+        "google": {
+          "url": "https://play.google.com/store/apps/details?id=kr.ministerhelper.everyconvert&hl=ko&gl=KR",
+          "package": "kr.ministerhelper.everyconvert",
+          "status": "not-public"
+        }
+      },
+      "androidPrivacy": "/android/everyconvert/privacy.html"
+    },
+    {
+      "id": "6825611962",
+      "name": "모두의 PDF",
+      "category": "문서와 파일",
+      "description": "Mac에서 PDF를 열고 정리하는 도구. 무료로, 광고 없이 이용하세요.",
+      "platforms": [
+        "mac"
+      ],
+      "icon": "/apps/assets/6825611962.png",
+      "support": "/modupdf/",
+      "privacy": null,
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6825611962",
+          "status": "not-public"
+        }
+      }
     },
     {
       "id": "6816571383",
       "name": "나의 계산기",
-      "storeName": "나의 계산기",
-      "url": "https://apps.apple.com/kr/app/id6816571383",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ce/ce/a2/cecea296-8b81-e7b7-2462-0cf184d341df/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "description": "일상의 계산과 나만의 기록 보관",
-      "liveVersion": "1.6"
+      "category": "생활 도구",
+      "description": "일상의 계산과 계산 기록, 나만의 사진·메모·파일 보관을 함께 관리하세요.",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "icon": "/apps/assets/6816571383.jpg",
+      "support": "https://taeyang-privatecalculator-support.taeyang1238.chatgpt.site/",
+      "privacy": "https://taeyang-privatecalculator-support.taeyang1238.chatgpt.site/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6816571383",
+          "status": "public"
+        },
+        "google": {
+          "url": "https://play.google.com/store/apps/details?id=kr.ministerhelper.privatecalculator&hl=ko&gl=KR",
+          "package": "kr.ministerhelper.privatecalculator",
+          "status": "not-public"
+        }
+      },
+      "androidPrivacy": "/android/calculator/privacy.html"
     },
     {
       "id": "6817610431",
       "name": "D머니",
-      "storeName": "D머니 택시 앱 미터기",
-      "url": "https://apps.apple.com/kr/app/id6817610431",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/17/62/cf/1762cf84-0303-fcc4-167b-9976a9c36a2f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
-      "description": "운행 기록과 요금 계산을 간편하게",
-      "liveVersion": "1.7"
+      "category": "생활 도구",
+      "description": "운행 기록과 요금 계산을 위한 택시 미터기 시뮬레이터입니다.",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "icon": "/apps/assets/6817610431.jpg",
+      "support": "https://dmoney-taximeter-support.taeyang1238.chatgpt.site/",
+      "privacy": "https://dmoney-taximeter-support.taeyang1238.chatgpt.site/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6817610431",
+          "status": "public"
+        },
+        "google": {
+          "url": "https://play.google.com/store/apps/details?id=kr.ministerhelper.dmoney&hl=ko&gl=KR",
+          "package": "kr.ministerhelper.dmoney",
+          "status": "not-public"
+        }
+      },
+      "androidPrivacy": "/android/dmoney/privacy.html"
+    },
+    {
+      "id": "6829821457",
+      "name": "빌려준 물건",
+      "category": "생활 도구",
+      "description": "물건과 돈을 빌려준 내역, 돌려받을 날짜와 반납·상환 이력을 기록하세요.",
+      "platforms": [
+        "ios"
+      ],
+      "icon": "/apps/assets/6829821457.png",
+      "support": "https://lending-records-support.taeyang1238.chatgpt.site/#support",
+      "privacy": "https://lending-records-support.taeyang1238.chatgpt.site/privacy.html",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6829821457",
+          "status": "not-public"
+        }
+      }
+    },
+    {
+      "id": "6830583446",
+      "name": "수강권 지갑",
+      "category": "생활 도구",
+      "description": "센터 이용권의 남은 횟수와 만료일, 수업 일정을 한곳에서 챙기세요.",
+      "platforms": [
+        "ios"
+      ],
+      "icon": "/apps/assets/6830583446.png",
+      "support": "https://classpass-wallet-support.taeyang1238.chatgpt.site/#support",
+      "privacy": "https://classpass-wallet-support.taeyang1238.chatgpt.site/#privacy",
+      "stores": {
+        "apple": {
+          "url": "https://apps.apple.com/kr/app/id6830583446",
+          "status": "not-public"
+        }
+      }
     }
   ]
 }
