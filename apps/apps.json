@@ -160,7 +160,7 @@
       ],
       "icon": "/apps/assets/6825611962.png",
       "support": "/modupdf/",
-      "privacy": null,
+      "privacy": "/modupdf/privacy.html",
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6825611962",
