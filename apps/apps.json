@@ -39,8 +39,8 @@
         "android"
       ],
       "icon": "/apps/assets/6822590383.jpg",
-      "support": "https://versecamera-help.taeyang1238.chatgpt.site/",
-      "privacy": "https://versecamera-help.taeyang1238.chatgpt.site/privacy.html",
+      "support": "/versecamera/",
+      "privacy": "/versecamera/privacy.html",
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6822590383",
@@ -109,8 +109,8 @@
         "android"
       ],
       "icon": "/apps/assets/6818794073.jpg",
-      "support": "https://modubogi-support.taeyang1238.chatgpt.site/",
-      "privacy": "https://modubogi-support.taeyang1238.chatgpt.site/privacy.html",
+      "support": "/everypreview/",
+      "privacy": "/everypreview/privacy.html",
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6818794073",
@@ -178,8 +178,8 @@
         "android"
       ],
       "icon": "/apps/assets/6816571383.jpg",
-      "support": "https://taeyang-privatecalculator-support.taeyang1238.chatgpt.site/",
-      "privacy": "https://taeyang-privatecalculator-support.taeyang1238.chatgpt.site/privacy.html",
+      "support": "/calculator/",
+      "privacy": "/calculator/privacy.html",
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6816571383",
@@ -203,8 +203,8 @@
         "android"
       ],
       "icon": "/apps/assets/6817610431.jpg",
-      "support": "https://dmoney-taximeter-support.taeyang1238.chatgpt.site/",
-      "privacy": "https://dmoney-taximeter-support.taeyang1238.chatgpt.site/privacy.html",
+      "support": "/dmoney/",
+      "privacy": "/dmoney/privacy.html",
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6817610431",
@@ -227,8 +227,8 @@
         "ios"
       ],
       "icon": "/apps/assets/6829821457.png",
-      "support": "https://lending-records-support.taeyang1238.chatgpt.site/#support",
-      "privacy": "https://lending-records-support.taeyang1238.chatgpt.site/privacy.html",
+      "support": "/lending-records/",
+      "privacy": "/lending-records/privacy.html",
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6829821457",
@@ -245,8 +245,8 @@
         "ios"
       ],
       "icon": "/apps/assets/6830583446.png",
-      "support": "https://classpass-wallet-support.taeyang1238.chatgpt.site/#support",
-      "privacy": "https://classpass-wallet-support.taeyang1238.chatgpt.site/#privacy",
+      "support": "/classpass-wallet/",
+      "privacy": "/classpass-wallet/privacy.html",
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6830583446",

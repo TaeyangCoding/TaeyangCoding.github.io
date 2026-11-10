@@ -1,0 +1,71 @@
+{
+  "domain": "https://taeyang-code.com",
+  "apps": [
+    {
+      "app": "말씀시계",
+      "applePrivacy": "https://taeyang-code.com/scriptureclock/privacy.html",
+      "support": "https://taeyang-code.com/scriptureclock/",
+      "androidPrivacy": "https://taeyang-code.com/android/scriptureclock/privacy.html"
+    },
+    {
+      "app": "말씀을 담다",
+      "applePrivacy": "https://taeyang-code.com/versecamera/privacy.html",
+      "support": "https://taeyang-code.com/versecamera/",
+      "androidPrivacy": "https://taeyang-code.com/android/versecamera/privacy.html"
+    },
+    {
+      "app": "내 취미 전시장",
+      "applePrivacy": "https://taeyang-code.com/hobbygallery/privacy.html",
+      "support": "https://taeyang-code.com/hobbygallery/",
+      "androidPrivacy": "https://taeyang-code.com/android/hobbygallery/privacy.html"
+    },
+    {
+      "app": "우리 집 태양",
+      "applePrivacy": "https://taeyang-code.com/our-home-sunlight/privacy.html",
+      "support": "https://taeyang-code.com/our-home-sunlight/",
+      "androidPrivacy": null
+    },
+    {
+      "app": "모두보기",
+      "applePrivacy": "https://taeyang-code.com/everypreview/privacy.html",
+      "support": "https://taeyang-code.com/everypreview/",
+      "androidPrivacy": "https://taeyang-code.com/android/everypreview/privacy.html"
+    },
+    {
+      "app": "모두변환",
+      "applePrivacy": "https://taeyang-code.com/everyconvert/privacy.html",
+      "support": "https://taeyang-code.com/everyconvert/",
+      "androidPrivacy": "https://taeyang-code.com/android/everyconvert/privacy.html"
+    },
+    {
+      "app": "모두의 PDF",
+      "applePrivacy": "https://taeyang-code.com/modupdf/privacy.html",
+      "support": "https://taeyang-code.com/modupdf/",
+      "androidPrivacy": null
+    },
+    {
+      "app": "나의 계산기",
+      "applePrivacy": "https://taeyang-code.com/calculator/privacy.html",
+      "support": "https://taeyang-code.com/calculator/",
+      "androidPrivacy": "https://taeyang-code.com/android/calculator/privacy.html"
+    },
+    {
+      "app": "D머니",
+      "applePrivacy": "https://taeyang-code.com/dmoney/privacy.html",
+      "support": "https://taeyang-code.com/dmoney/",
+      "androidPrivacy": "https://taeyang-code.com/android/dmoney/privacy.html"
+    },
+    {
+      "app": "빌려준 물건",
+      "applePrivacy": "https://taeyang-code.com/lending-records/privacy.html",
+      "support": "https://taeyang-code.com/lending-records/",
+      "androidPrivacy": null
+    },
+    {
+      "app": "수강권 지갑",
+      "applePrivacy": "https://taeyang-code.com/classpass-wallet/privacy.html",
+      "support": "https://taeyang-code.com/classpass-wallet/",
+      "androidPrivacy": null
+    }
+  ]
+}
