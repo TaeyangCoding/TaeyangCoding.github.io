@@ -1,0 +1,13 @@
+.bible-guide-player {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  margin: .8rem 0 0;
+  border-radius: .75rem;
+  background: #202719;
+}
+.mac-video-guide { max-width: 48rem; margin: 1.35rem auto 0; }
+.mac-video-guide h3 { margin: 0; }
+.mac-video-guide p { margin: .35rem 0; }
+.guide-video-meta { margin: .3rem 0 .8rem; color: var(--muted, inherit); }
