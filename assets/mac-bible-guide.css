@@ -4,3 +4,93 @@
 .site,footer{max-width:58rem;margin:auto;padding:1.1rem 1.4rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}.site a:first-child{font-weight:740;display:flex;align-items:center;gap:.55rem}.site a{text-decoration:none}.skip{position:absolute;top:-6rem;left:1rem;background:var(--paper);padding:.5rem}.skip:focus{top:1rem}
 main{max-width:54rem;margin:auto;padding:1.5rem 1.25rem 3rem}.intro{padding:clamp(1.3rem,4vw,3.1rem);background:var(--soft);border:1px solid var(--line);border-radius:1.3rem}.eyebrow{color:var(--accent);margin:0 0 .5rem;font-weight:700}h1,h2,h3{line-height:1.3}h1{margin:.35rem 0;font-size:clamp(1.9rem,6vw,3.4rem);letter-spacing:-.04em}h2{margin-top:0;font-size:clamp(1.3rem,4vw,1.9rem)}h3{font-size:1.17rem}.intro>p:not(.eyebrow){max-width:42rem}nav{display:flex;flex-wrap:wrap;gap:.5rem;margin:1.4rem 0}nav a{border:1px solid var(--line);background:var(--paper);border-radius:999px;padding:.35rem .75rem;text-decoration:none;font-weight:640;font-size:.9rem}
 section{margin:1rem 0;padding:clamp(1.1rem,4vw,2rem);background:var(--paper);border:1px solid var(--line);border-radius:1rem}section:target{outline:2px solid var(--accent);outline-offset:2px}li+li{margin-top:.55rem}ol,ul{padding-left:1.45rem}.callout{background:var(--bg);padding:.85rem 1rem;border-radius:.65rem;border-left:3px solid var(--accent);margin-bottom:0}.examples{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));gap:.7rem}.examples div{padding:.7rem .9rem;background:var(--soft);border-radius:.65rem}dt{font-weight:740}dd{margin:0 0 .8rem;color:var(--muted)}.examples dd{margin:0}code,kbd{padding:.1em .35em;background:var(--bg);border:1px solid var(--line);border-radius:.25rem;font-size:1em}footer{border-top:1px solid var(--line);color:var(--muted)}
+.guide-figure {
+  margin: 1.4rem 0 1.65rem;
+  border: 1px solid var(--line);
+  border-radius: .85rem;
+  overflow: hidden;
+}
+.guide-figure-compact { max-width: 37rem; }
+.guide-shot {
+  position: relative;
+  container-type: inline-size;
+  overflow: hidden;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+}
+.guide-shot img { display: block; width: 100%; height: auto; }
+.shot-focus {
+  --mark: #a13514;
+  --pin-size: clamp(13px, 4.1cqw, 28px);
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: var(--w);
+  height: var(--h);
+  border: clamp(1px, .34cqw, 2.5px) solid var(--mark);
+  border-radius: clamp(2px, .85cqw, 6px);
+  pointer-events: none;
+}
+.shot-pin {
+  position: absolute;
+  isolation: isolate;
+  left: var(--pin-x);
+  bottom: calc(100% + .19 * var(--pin-size));
+  transform: translateX(-50%);
+  display: grid;
+  place-items: center;
+  width: var(--pin-size);
+  height: var(--pin-size);
+  border-radius: 50%;
+  background: var(--mark);
+  color: #fff;
+  outline: 1px solid #fff;
+  font-size: calc(.65 * var(--pin-size));
+  font-weight: 760;
+  line-height: 1;
+}
+.shot-pin::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 88%;
+  transform: translateX(-50%);
+  border-left: calc(.22 * var(--pin-size)) solid transparent;
+  border-right: calc(.22 * var(--pin-size)) solid transparent;
+  border-top: calc(.31 * var(--pin-size)) solid var(--mark);
+}
+.shot-focus[data-side="below"] .shot-pin {
+  bottom: auto;
+  top: calc(100% + .19 * var(--pin-size));
+}
+.shot-focus[data-side="below"] .shot-pin::after {
+  top: auto;
+  bottom: 88%;
+  transform: translateX(-50%) rotate(180deg);
+}
+.shot-focus[data-side="right"] .shot-pin {
+  left: calc(100% + .19 * var(--pin-size));
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.shot-focus[data-side="right"] .shot-pin::after {
+  top: 50%;
+  left: 0;
+  transform: translate(-69%, -50%) rotate(90deg);
+}
+.guide-figure figcaption {
+  padding: .8rem clamp(.75rem, 3vw, 1.25rem) 1rem;
+  background: var(--bg);
+}
+.guide-caption-heading {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  column-gap: .75rem;
+}
+.guide-caption-heading a { font-size: .86rem; }
+.guide-photo-steps { margin: .55rem 0 0; }
+.guide-photo-steps li::marker { color: var(--accent); font-weight: 760; }
