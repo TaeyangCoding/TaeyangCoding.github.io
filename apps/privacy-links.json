@@ -23,7 +23,7 @@
       "app": "우리 집 태양",
       "applePrivacy": "https://taeyang-code.com/our-home-sunlight/privacy.html",
       "support": "https://taeyang-code.com/our-home-sunlight/",
-      "androidPrivacy": null
+      "androidPrivacy": "https://taeyang-code.com/android/our-home-sunlight/privacy.html"
     },
     {
       "app": "모두보기",
@@ -41,7 +41,7 @@
       "app": "모두의 PDF",
       "applePrivacy": "https://taeyang-code.com/modupdf/privacy.html",
       "support": "https://taeyang-code.com/modupdf/",
-      "androidPrivacy": null
+      "androidPrivacy": "https://taeyang-code.com/android/modupdf/privacy.html"
     },
     {
       "app": "나의 계산기",
@@ -59,13 +59,13 @@
       "app": "빌려준 물건",
       "applePrivacy": "https://taeyang-code.com/lending-records/privacy.html",
       "support": "https://taeyang-code.com/lending-records/",
-      "androidPrivacy": null
+      "androidPrivacy": "https://taeyang-code.com/android/lending-records/privacy.html"
     },
     {
       "app": "수강권 지갑",
       "applePrivacy": "https://taeyang-code.com/classpass-wallet/privacy.html",
       "support": "https://taeyang-code.com/classpass-wallet/",
-      "androidPrivacy": null
+      "androidPrivacy": "https://taeyang-code.com/android/classpass-wallet/privacy.html"
     }
   ]
 }
