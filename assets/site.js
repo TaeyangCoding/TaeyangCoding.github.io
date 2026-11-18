@@ -8,6 +8,7 @@
   function update() {
     document.documentElement.dataset.platform = platform;
     document.querySelectorAll('.apple-store').forEach(item => { item.hidden = platform === 'android'; });
+    document.querySelectorAll('.google-store').forEach(item => { item.hidden = platform === 'ios' || platform === 'mac'; });
     document.querySelectorAll('.google-pending').forEach(item => { item.hidden = platform !== 'android'; });
     const query = search.value.normalize('NFKC').toLocaleLowerCase('ko').replace(/\s/g, '');
     let count = 0;

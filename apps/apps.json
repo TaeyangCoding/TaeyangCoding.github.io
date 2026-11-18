@@ -2,7 +2,7 @@
   "schema": 2,
   "verifiedAtKST": "2026-11-09",
   "verificationRegion": "KR",
-  "storeStatusNote": "Public availability checked using Apple lookup and official store pages. A not-public URL is retained as a registered destination and is not rendered as a download button.",
+  "storeStatusNote": "Apple availability was checked on verifiedAtKST. Android public availability is recorded with each verified Google Play entry; registered destinations that are not public are not rendered as download buttons.",
   "apps": [
     {
       "id": "6822553016",
@@ -145,7 +145,9 @@
         "google": {
           "url": "https://play.google.com/store/apps/details?id=kr.ministerhelper.everyconvert&hl=ko&gl=KR",
           "package": "kr.ministerhelper.everyconvert",
-          "status": "not-public"
+          "status": "public",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       },
       "androidPrivacy": "/android/everyconvert/privacy.html"
