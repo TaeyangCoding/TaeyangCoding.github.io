@@ -2,7 +2,7 @@
   "schema": 2,
   "verifiedAtKST": "2026-11-09",
   "verificationRegion": "KR",
-  "storeStatusNote": "Apple availability was checked on verifiedAtKST. Android public availability is recorded with each verified Google Play entry; registered destinations that are not public are not rendered as download buttons.",
+  "storeStatusNote": "Store availability is checked on each store entry verifiedAtKST when present, otherwise on the catalog verifiedAtKST. Registered destinations that are not public are not rendered as download buttons.",
   "apps": [
     {
       "id": "6822553016",
@@ -234,7 +234,9 @@
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6829821457",
-          "status": "not-public"
+          "status": "public",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       }
     },
@@ -252,7 +254,9 @@
       "stores": {
         "apple": {
           "url": "https://apps.apple.com/kr/app/id6830583446",
-          "status": "not-public"
+          "status": "public",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       }
     }
