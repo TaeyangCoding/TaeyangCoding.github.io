@@ -24,7 +24,11 @@
         "google": {
           "url": "https://play.google.com/store/apps/details?id=com.taeyang.scriptureclock&hl=ko&gl=KR",
           "package": "com.taeyang.scriptureclock",
-          "status": "not-public"
+          "status": "public",
+          "version": "1.1",
+          "build": "3",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       },
       "androidPrivacy": "/android/scriptureclock/privacy.html"
@@ -49,7 +53,11 @@
         "google": {
           "url": "https://play.google.com/store/apps/details?id=com.taeyang.versecamera&hl=ko&gl=KR",
           "package": "com.taeyang.versecamera",
-          "status": "not-public"
+          "status": "public",
+          "version": "1.1",
+          "build": "3",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       },
       "androidPrivacy": "/android/versecamera/privacy.html"
@@ -74,7 +82,11 @@
         "google": {
           "url": "https://play.google.com/store/apps/details?id=com.taeyang.hobbygallery&hl=ko&gl=KR",
           "package": "com.taeyang.hobbygallery",
-          "status": "not-public"
+          "status": "public",
+          "version": "1.1",
+          "build": "2",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       },
       "androidPrivacy": "/android/hobbygallery/privacy.html",
@@ -119,7 +131,11 @@
         "google": {
           "url": "https://play.google.com/store/apps/details?id=kr.ministerhelper.everypreview&hl=ko&gl=KR",
           "package": "kr.ministerhelper.everypreview",
-          "status": "not-public"
+          "status": "public",
+          "version": "1.1",
+          "build": "2",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       },
       "androidPrivacy": "/android/everypreview/privacy.html"
@@ -147,7 +163,9 @@
           "package": "kr.ministerhelper.everyconvert",
           "status": "public",
           "verifiedAtKST": "2026-11-18",
-          "verificationRegion": "KR"
+          "verificationRegion": "KR",
+          "version": "1.2",
+          "build": "3"
         }
       },
       "androidPrivacy": "/android/everyconvert/privacy.html"
@@ -190,7 +208,11 @@
         "google": {
           "url": "https://play.google.com/store/apps/details?id=kr.ministerhelper.privatecalculator&hl=ko&gl=KR",
           "package": "kr.ministerhelper.privatecalculator",
-          "status": "not-public"
+          "status": "public",
+          "version": "1.1",
+          "build": "3",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       },
       "androidPrivacy": "/android/calculator/privacy.html"
@@ -215,7 +237,11 @@
         "google": {
           "url": "https://play.google.com/store/apps/details?id=kr.ministerhelper.dmoney&hl=ko&gl=KR",
           "package": "kr.ministerhelper.dmoney",
-          "status": "not-public"
+          "status": "public",
+          "version": "1.1",
+          "build": "2",
+          "verifiedAtKST": "2026-11-18",
+          "verificationRegion": "KR"
         }
       },
       "androidPrivacy": "/android/dmoney/privacy.html"
@@ -260,5 +286,6 @@
         }
       }
     }
-  ]
+  ],
+  "androidVerifiedAtKST": "2026-11-18"
 }

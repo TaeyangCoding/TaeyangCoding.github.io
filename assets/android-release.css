@@ -1,0 +1,11 @@
+.android-release{box-sizing:border-box;margin:24px 0;padding:24px;border:1px solid #dce3d4;border-radius:18px;background:#f5f7f0;color:#243126;text-align:left}
+.android-release .android-release-label{margin:0 0 8px;font-size:12px;line-height:1.5;font-weight:700;letter-spacing:.12em;color:#4e6748}
+.android-release h2{margin:0 0 10px;font-size:24px;line-height:1.3;color:#243126}
+.android-release p{margin:0 0 16px;line-height:1.65;color:#354336}
+.android-release .android-release-actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px}
+.android-release .android-release-download{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 18px;border-radius:12px;background:#29452c;color:#fff;font-weight:700;text-decoration:none}
+.android-release .android-release-download:hover{background:#1d3420}
+.android-release a:focus-visible{outline:3px solid #70935e;outline-offset:4px}
+.android-release .android-release-privacy{color:#29452c;text-underline-offset:3px}
+.android-release .android-release-note{margin:16px 0 0;font-size:14px;color:#52614d}
+@media(max-width:600px){.android-release{padding:20px;margin:20px 0}.android-release .android-release-actions{align-items:flex-start;flex-direction:column}}
